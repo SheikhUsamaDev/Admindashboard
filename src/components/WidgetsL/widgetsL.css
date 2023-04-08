@@ -1,0 +1,53 @@
+.widgetsL{
+    flex: 2;
+    box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+-webkit-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+-moz-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+padding: 20px;
+margin-right: 20px;
+}
+.wltitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.wltable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.wlth{
+    text-align: left;
+}
+.wluser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.wldate , .wlamount{
+ font-weight: 300;
+}
+
+.wlimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.wlbtn{
+padding: 5px 7px;
+border: none;
+border-radius: 10px;
+
+}
+.wlbtn.Approved{
+    background-color: rgb(181, 248, 181);
+    color: green;
+}
+.wlbtn.Declined{
+    background-color: #f7b0b4;
+    color: red;
+}
+.wlbtn.Panding{
+    background-color: #b6c7ee;
+    color: #718fcf;
+}

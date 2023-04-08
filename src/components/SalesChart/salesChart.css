@@ -1,0 +1,10 @@
+.SalesChart{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+    -webkit-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+    -moz-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+}
+.Ctitle{
+    margin-bottom: 20px;
+}

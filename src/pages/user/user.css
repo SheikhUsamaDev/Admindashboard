@@ -1,0 +1,137 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+.userTitlecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userAddbtn{
+    width: 80px;
+    border: none;
+    background-color: teal;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+}
+.usercontainer{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.usershow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+    -webkit-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+    -moz-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+}
+.userupdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+    -webkit-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+    -moz-box-shadow: 10px 11px 7px -1px rgba(0,0,0,0.77);
+    margin-right: 20px;
+}
+.ustop{
+    display: flex;
+    align-items: center;
+}
+.usTopimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.ustoptitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.usUsername{
+    font-weight: 600;
+}
+.usUsertitle{
+    font-weight: 300;
+}
+.usbottom{
+   margin-top: 20px; 
+}
+.usershowtitle{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(185, 183, 183);
+}
+.usershowinfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.usershowIcon{
+    font-size: 16px !important;
+}
+.usershowinfoT{
+    margin-left: 10px;
+}
+.userupdateimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+.userupdateform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userupdatetitle{
+    font-size: 25px;
+    font-weight: 600;
+}
+.userupdateitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.userupdateitem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.userupdateinput{
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid grey;
+    height: 30px;
+}
+
+/*right*/
+
+.userupdateright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.userupdateupload{
+    display: flex;
+    align-items: center;
+}
+.userupdateicons{
+    cursor: pointer;
+}
+.userupdatebtn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+}
