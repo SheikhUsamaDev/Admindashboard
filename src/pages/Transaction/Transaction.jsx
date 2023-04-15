@@ -1,17 +1,15 @@
+import "./transaction.css";
 
-import "./sales.css";
-import {  SalesData } from "../../Dummydata";
-import SalesChart from "../../components/SalesChart/SalesChart";
-
-export default function Sales() {
-  const Button =  ({type}) =>{
-    return <button className={" Tbtn " + type } > {type} </button>;
-  };
+export default function Transaction() {
+    const Button =  ({type}) =>{
+        return <button className={" Tbtn " + type } > {type} </button>;
+      };
+      
   return (
-    <div className="sales">
-     <SalesChart data={SalesData} title=" Sales Analytics " grid dataKey="Sales" />
-    <div className="salestable">
-     <table className="Ttable">
+    <div className="Transaction">
+       <h3 className="Ttitle">Latest Transection</h3>
+      
+      <table className="Ttable">
         <tr className="Ttr">
           <th className="Tth">Customer</th>
           <th className="Tth">Date</th>
@@ -64,7 +62,6 @@ export default function Sales() {
            </td>
         </tr>
       </table>
-      </div>
     </div>
   )
 }

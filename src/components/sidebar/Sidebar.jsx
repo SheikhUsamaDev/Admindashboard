@@ -49,45 +49,58 @@ export default function Sidebar() {
                    Products
                 </li>
                 </Link>
+                <Link to="/transaction" className='link'>
                 <li className="listItem">
                   <AttachMoney className='sidebaricon'/>
                    Transaction
                 </li>
+                </Link>
+                <Link to="/reports" className='link'>
                 <li className="listItem">
                   <BarChart className='sidebaricon'/>
                    Reports
                 </li>
+                </Link>
             </ul>
         </div>
         <div className="sidebarmenu">
             <h3 className="sidebartitle">Notifications</h3>
             <ul className="sidebarlist">
+            <Link to="/mails" className='link'>
                 <li className="listItem ">
                   <Mail className='sidebaricon' />
                    Mail
                 </li>
+                </Link>
+                <Link to="/feedback" className='link'>
                 <li className="listItem ">
                   <DynamicFeed className='sidebaricon'/>
                    FeedBack
                 </li>
+                </Link>
+                <Link to="/messages" className='link'>
                 <li className="listItem">
                   <Message className='sidebaricon'/>
                    Messege
                 </li>
+                </Link>
             </ul>
         </div>
         <div className="sidebarmenu">
             <h3 className="sidebartitle">Staff</h3>
             <ul className="sidebarlist">
+            <Link to="/manage" className='link'>
                 <li className="listItem ">
                   <HomeRepairService className='sidebaricon' />
                    Manage
                 </li>
-                
+                </Link>
+                <Link to="/reports" className='link'>
                 <li className="listItem">
                   <Report className='sidebaricon'/>
                    Reports
                 </li>
+                </Link>
             </ul>
         </div>
         

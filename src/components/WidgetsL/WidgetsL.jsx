@@ -44,8 +44,8 @@ const Button =  ({type}) =>{
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIb57SPy6ne-CIDccMYhhEKiUb4-zWcNhSzQ&usqp=CAU" alt="" className="wlimage" />
             <span className="wlname">Susan Carol</span>
           </td>
-          <td className="wldate">2 JAN 2001</td>
-           <td className="wlamount">$211.00</td>
+          <td className="wldate">2 MARCH 2001</td>
+           <td className="wlamount">$11.00</td>
            <td className="wlstatus">
             <Button type="Pending"/>
            </td>
@@ -56,7 +56,7 @@ const Button =  ({type}) =>{
              alt="" className="wlimage" />
             <span className="wlname">Susan Carol</span>
           </td>
-          <td className="wldate">2 JAN 2001</td>
+          <td className="wldate">2 FEB 2002</td>
            <td className="wlamount">$211.00</td>
            <td className="wlstatus">
             <Button type="Approved"/>

@@ -49,7 +49,7 @@ export default function NewUser() {
                 <input type="radio" name="gender" id="female" value="female" className="newuserinput" />
                 <label for="female">Female</label>
                 <input type="radio" name="gender" id="other" value="other" className="newuserinput" />
-                <label for="other">Other</label>
+                
               </div>
             </div>
             <div className="newuseritem">
